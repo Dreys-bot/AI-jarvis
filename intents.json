@@ -1,0 +1,71 @@
+{
+  "intents": [
+
+    {
+      "tag": "greeting",
+      "patterns": ["hello", "hii", "hey", "wake up", "Audrey"
+
+      ],
+      "response": ["Hello Sir", "How are you Sir", "Always For you Sir", "Hello", "Here's your assistant"
+
+      ]
+    },
+    {
+      "tag": "bye",
+      "patterns": ["bye", "good bye", "see you later", "sleep", "exit"
+
+      ],
+      "response": ["Bye", "I am going", "Bye Sir", "Good Bye", "It'll be Nice to meet you again", "See you later"
+
+      ]
+    },
+    {
+      "tag": "health",
+      "patterns": ["how are you", "how you", "are you fine?", "are you good"
+
+      ],
+      "response": ["Fine.", "Perfect.", "Cool", "Like you", "Are you fine? I'm fine"
+
+      ]
+    },
+    {
+      "tag": "identity",
+      "patterns": ["your name", "what is your name", "who are you", "what are you"],
+      "response": ["Audrey", "I am Audrey", "An A.I assistant", "My name is Audrey", "Great Assistant"]
+    },
+    {
+      "tag": "time",
+      "patterns": ["what is time", "time", "samay", "what's the time"],
+      "response": ["time"]
+    },
+    {
+      "tag": "date",
+      "patterns": ["what is date", "date", "tareek", "what is the date"],
+      "response": ["date"]
+    },
+    {
+      "tag": "day",
+      "patterns": ["what is day", "day", "din", "what is the day", "today"],
+      "response": ["day"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks you", "Thanks"],
+      "response": ["No problem", "I am here for you", "you are welcome"]
+    },
+    {
+      "tag": "wikipedia",
+      "patterns": ["who is", "about", "what is", "look for", "wikipedia" ],
+      "response": ["wikipedia"]
+    },
+    {
+      "tag": "google",
+      "patterns": ["google search", "google", "search"],
+      "response": ["google"]
+    }
+
+  ]
+
+}
+
+
